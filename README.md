@@ -12,7 +12,7 @@ Petite librairie pour ajouter des effets au survol de la souris
 
 ## Exemples
 
-Les exemples sont visibles sur le lien suivant [https://lab.cedricbeau.pro/bahcss/] (https://lab.cedricbeau.pro/bahcss/)
+Les exemples sont visibles sur le lien suivant [https://lab.cedricbeau.pro/bahcss/](https://lab.cedricbeau.pro/bahcss/)
 
 | Classes       | Effet            |
 | ------------- |:----------------:|
@@ -33,4 +33,4 @@ Les exemples sont visibles sur le lien suivant [https://lab.cedricbeau.pro/bahcs
 | br            | Bottom Right     |
 | ebl           | Exit Bottom Left |
 | etr           | Exit Top Right   |
-| ebr   
+| ebr           | Exit Bottom Right|
