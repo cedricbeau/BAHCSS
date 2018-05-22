@@ -1,0 +1,303 @@
+@charset "UTF-8";
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/*
+* - bah
+*/
+.bah {
+  position: relative;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+
+.bah::before, .bah::after {
+  content: '';
+  position: absolute;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+/*
+* - Série 1
+*/
+/**/
+.ltr:before {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 0;
+}
+
+.ltr:hover:before {
+  right: 0;
+  width: 100%;
+}
+
+/**/
+.rtl:before {
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 0;
+}
+
+.rtl:hover:before {
+  width: 100%;
+}
+
+/**/
+.ttb:before {
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 0;
+}
+
+.ttb:hover:before {
+  bottom: 0;
+  height: 100%;
+}
+
+.btt:before {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 0;
+}
+
+/**/
+.btt:hover:before {
+  height: 100%;
+}
+
+/*
+* - Série 2
+*/
+/**/
+.xi:before,
+.xi:after {
+  top: 0;
+  bottom: 0;
+  width: 0;
+}
+
+.xi:before {
+  left: 0;
+}
+
+.xi:after {
+  right: 0;
+}
+
+.xi:hover:before {
+  right: 50%;
+  width: 50%;
+}
+
+.xi:hover:after {
+  width: 50%;
+}
+
+/**/
+.xo:before,
+.xo:after {
+  top: 0;
+  bottom: 0;
+  width: 0;
+}
+
+.xo:before {
+  left: 50%;
+}
+
+.xo:hover:before {
+  left: 0;
+  width: 50%;
+}
+
+.xo:after {
+  right: 50%;
+}
+
+.xo:hover:after {
+  right: 0;
+  width: 50%;
+}
+
+/**/
+.yi:before,
+.yi:after {
+  right: 0;
+  left: 0;
+  height: 0;
+}
+
+.yi:before {
+  top: 0;
+}
+
+.yi:hover:before {
+  height: 50%;
+}
+
+.yi:after {
+  bottom: 0;
+}
+
+.yi:hover:after {
+  height: 50%;
+}
+
+/**/
+.yo:before,
+.yo:after {
+  right: 0;
+  left: 0;
+  height: 0;
+}
+
+.yo:before {
+  top: 50%;
+}
+
+.yo:hover:before {
+  top: 0;
+  height: 50%;
+}
+
+.yo:after {
+  bottom: 50%;
+}
+
+.yo:hover:after {
+  bottom: 0;
+  height: 50%;
+}
+
+/*
+* - Série 3
+*/
+/**/
+.etor:before {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 0;
+}
+
+.etor:hover:before {
+  left: 0;
+  width: 100%;
+}
+
+/**/
+.etb:before {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 0;
+}
+
+.etb:hover:before {
+  top: 0;
+  height: 100%;
+}
+
+/*
+* - Séries 4 & 5
+*/
+/**/
+a.tl:before,
+a.bl:before,
+a.tr:before,
+a.br:before,
+a.ebl:before,
+a.etr:before,
+a.ebr:before {
+  width: 0;
+  height: 0;
+}
+
+a.tl:hover:before,
+a.bl:hover:before,
+a.tr:hover:before,
+a.br:hover:before,
+a.ebl:hover:before,
+a.etr:hover:before,
+a.ebr:hover:before {
+  width: 100%;
+  height: 100%;
+}
+
+.tl:before {
+  top: 0;
+  left: 0;
+}
+
+.tl:hover:before {
+  right: 0;
+  bottom: 0;
+}
+
+/**/
+.bl:before {
+  bottom: 0;
+  left: 0;
+  top: 100%;
+  /* reset default position */
+}
+
+.ebl:before {
+  bottom: 0;
+  left: 0;
+}
+
+.bl:hover:before,
+.ebl:hover:before {
+  top: 0;
+  right: 0;
+}
+
+/**/
+.tr:before {
+  top: 0;
+  right: 0;
+  left: 100%;
+  /* reset default position */
+}
+
+.etr:before {
+  top: 0;
+  right: 0;
+}
+
+.tr:hover:before,
+.etr:hover:before {
+  left: 0;
+  bottom: 0;
+}
+
+/**/
+.br:before {
+  top: 100%;
+  /* reset default position */
+  right: 0;
+  bottom: 0;
+  left: 100%;
+  /* reset default position */
+}
+
+.ebr:before {
+  right: 0;
+  bottom: 0;
+}
+
+.br:hover:before,
+.ebr:hover:before {
+  top: 0;
+  left: 0;
+}
+/*# sourceMappingURL=bah.css.map */
