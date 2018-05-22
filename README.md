@@ -10,9 +10,7 @@ Petite librairie pour ajouter des effets au survol de la souris
 2. Intégrez le fichier bah.css ou bah.min.css à votre page
 3. Ajoutez la classe bah + la classe située sous le bouton correspondant à l'élément dont vous souhaitez obtenir l'effet
 
-## Exemples
-
-Les exemples sont visibles sur le lien suivant [https://lab.cedricbeau.pro/bahcss/](https://lab.cedricbeau.pro/bahcss/)
+## Classes
 
 | Classes       | Effet            |
 | ------------- |:----------------:|
