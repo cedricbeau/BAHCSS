@@ -11,6 +11,9 @@ body {
   margin: 0;
   font-family: 'Lato', sans-serif;
   font-size: 110%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   color: rgba(0, 0, 0, 0.7);
   background-image: linear-gradient(90deg, #673AB7 0%, #9C27B0 33%, #E91E63 66%, #f44336 100%);
   background-size: cover;
