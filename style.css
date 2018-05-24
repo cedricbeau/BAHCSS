@@ -9,11 +9,8 @@ html {
 body {
   padding: 1em;
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
   font-size: 110%;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   color: rgba(0, 0, 0, 0.7);
   background-image: linear-gradient(90deg, #673AB7 0%, #9C27B0 33%, #E91E63 66%, #f44336 100%);
   background-size: cover;
@@ -132,4 +129,33 @@ a.bah:hover {
     margin-top: 0;
   }
 }
-/*# sourceMappingURL=style.css.map */
+
+
+/* ---------- Footer ---------- */
+
+footer {
+  margin: 2em 0;
+  font-size: .75em;
+  color: #fff; 
+  text-align: center;
+}
+
+footer svg {
+  display: inline-block;
+  vertical-align: middle;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+footer a {
+  color: currentColor;
+  text-decoration: none; 
+  -webkit-transition: opacity .4s;
+  				transition: opacity .4s;
+}
+
+footer a:hover {
+  opacity: .6;
+}
+
