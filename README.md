@@ -2,7 +2,7 @@
 
 BAHCSS est la contraction de ::before ::after :hover CSS. C'est une librairie CSS qui permet d'ajouter des effets au survol de la souris.
 
-![Capture d'écran de BAHCSS]( BAHCSS/screen-bahcss.png "Capture d'écran de BAHCSS")
+![Capture d'écran de BAHCSS]( https://github.com/cedricbeau/BAHCSS/blob/master/BAHCSS/screen-bahcss.png "Capture d'écran de BAHCSS")
 
 ## Demo
 
