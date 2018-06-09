@@ -11,27 +11,23 @@ body {
   margin: 0;
   font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
   font-size: 110%;
-  color: rgba(0, 0, 0, 0.7);
-  background-image: linear-gradient(90deg, #673AB7 0%, #9C27B0 33%, #E91E63 66%, #f44336 100%);
+  color: #37474F;
+  background-image: linear-gradient(to bottom right,#4CB2D4,#37474F);
   background-size: cover;
 }
+
 header {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
+
 h1 {
   font-size: 3em;
   color: rgba(255, 255, 255, 0.5);
 }
-header>a {
-  display: inline-block;
-  width: 48px;
-  height: 48px;
-  opacity: 0.5;
-  transition: opacity 0.4s;
-}
+
 header>a:hover {
   opacity: 1;
 }
@@ -40,15 +36,19 @@ header>a:hover {
   margin-top: 0;
   margin-bottom: 1em;
 }
+
 .instruction a {
-  color: #673AB7;
+  color: #4CB2D4;
+	transition: color .4s;
 }
+
 .instruction a:hover,
-.instruction a:active {
-  color: #9C27B0;
+.instruction a:focus {
+  color: #37474F;
 }
-.instruction a:focus { 
-  outline: #E91E63;
+
+.instruction a:active { 
+  outline: #4CB2D4;
 }
 
 .instruction li:not(:first-child) {
