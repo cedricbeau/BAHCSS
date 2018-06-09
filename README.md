@@ -6,7 +6,7 @@ BAHCSS est la contraction de ::before ::after :hover CSS. C'est une librairie CS
 
 [https://cedricbeau.github.io/BAHCSS/](https://cedricbeau.github.io/BAHCSS/)
 
-![Capture d'écran de BAHCSS]( https://github.com/cedricbeau/BAHCSS/blob/master/screen-bahcss.png "Capture d'écran de BAHCSS")
+![Capture d'écran de BAHCSS]( https://github.com/cedricbeau/BAHCSS/blob/master/bahcss.png "Capture d'écran de BAHCSS")
 
 ## Instructions
 
