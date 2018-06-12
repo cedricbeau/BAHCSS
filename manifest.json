@@ -1,0 +1,21 @@
+{"name" : "BAHCSS",
+    "short_name" : "BAHCSS",
+    "theme_color" : "#ffffff",
+    "background_color" : "#ffffff",
+    "display" : "standalone",
+    "start_url" : "https://cedricbeau.github.io/BAHCSS/",
+    "lang" : "French",
+    "orientation" : "portrait-primary",
+    "description" : "Librairie d'effets css au survol de la souris",
+    "scope" : "https://cedricbeau.github.io/BAHCSS/",
+    "icons" : [
+        {
+            "src": "https://cedricbeau.github.io/BAHCSS/favicon/android-chrome-192x192.png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "https://cedricbeau.github.io/BAHCSS/favicon/android-chrome-512x512.png",
+            "sizes": "512x512"
+        }
+    ]
+}

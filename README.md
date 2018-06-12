@@ -40,3 +40,14 @@ BAHCSS est la contraction de ::before ::after :hover CSS. C'est une librairie CS
 | ebl           | Exit Bottom Left |
 | etr           | Exit Top Right   |
 | ebr           | Exit Bottom Right|
+
+
+## Modifications
+
+**12/06/2018:**
+
+* Modification du **background**
+* Ajout d'un **favicon**
+* Modification du **background**
+* Ajout d'un **Service Worker** permettant de fonctionner hors connexion
+
