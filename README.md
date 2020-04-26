@@ -48,6 +48,8 @@ BAHCSS est la contraction de ::before ::after :hover CSS. C'est une librairie CS
 
 * Ajout de la font icon Icomoon
 * Maj du footer
+* Maj du background
+* Maj de la capture d'écran
 
 **12/06/2018**
 
