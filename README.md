@@ -14,7 +14,7 @@ BAHCSS est la contraction de ::before ::after :hover CSS. C'est une librairie CS
   1. l'archive complète [bahcss.zip] (bahcss.zip)
   2. le fichier [bah.css] (bah.css)
   3. le fichier [bah.min.css] (bah.min.css)
-  4. le fichier [bah.scss] (bah.scss)      
+  4. le fichier [bah.scss] (bah.scss)
 2. Intégrez le fichier bah.css ou bah.min.css à votre page
 3. Ajoutez la classe bah + la classe située sous le bouton correspondant à l'élément dont vous souhaitez obtenir l'effet
 
@@ -44,7 +44,12 @@ BAHCSS est la contraction de ::before ::after :hover CSS. C'est une librairie CS
 
 ## Modifications
 
-**12/06/2018:**
+**26/02/2020**
+
+* Ajout de la font icon Icomoon
+* Maj du footer
+
+**12/06/2018**
 
 * Modification du **background**
 * Ajout d'un **favicon**

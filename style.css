@@ -2,6 +2,43 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?rmqgkb');
+  src:  url('../fonts/icomoon.eot?rmqgkb#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?rmqgkb') format('truetype'),
+    url('../fonts/icomoon.woff?rmqgkb') format('woff'),
+    url('../fonts/icomoon.svg?rmqgkb#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heart:before {
+  content: "\e9da";
+}
+.icon-embed2:before {
+  content: "\ea80";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+
 html {
   font-size: 100%;
 }
@@ -47,7 +84,7 @@ header>a:hover {
   color: #37474F;
 }
 
-.instruction a:active { 
+.instruction a:active {
   outline: #4CB2D4;
 }
 
@@ -134,28 +171,26 @@ a.bah:hover {
 /* ---------- Footer ---------- */
 
 footer {
+  display: flex;
+  justify-content: space-between;
   margin: 2em 0;
   font-size: .75em;
-  color: #fff; 
+  color: #f2f2f2;
   text-align: center;
 }
 
-footer svg {
+footer [class*="icon-"] {
   display: inline-block;
   vertical-align: middle;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
 }
 
 footer a {
   color: currentColor;
-  text-decoration: none; 
-  -webkit-transition: opacity .4s;
-  				transition: opacity .4s;
+  text-decoration: none;
+  transition: color .4s;
 }
 
 footer a:hover {
-  opacity: .6;
+  color: #03A9F4;;
 }
 
